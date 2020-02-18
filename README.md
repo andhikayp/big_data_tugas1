@@ -1,10 +1,9 @@
-![test](/screenshot/CSV_Writer_setting.JPG)
+# Big Data
+## Tugas 1
 
-big_data_tugas1
+### Business Understanding
 
-Business Understanding
-
-##### Data Understanding
+### Data Understanding
 ```
 jumlah baris data: 303 baris 
 makna kolom-kolom yang ada di dalam data:
@@ -24,7 +23,7 @@ thal      : 3 = normal; 6 = fixed defect; 7 = reversable defect
 target    : 1 : terkena heart disease; 0: tidak terkena heart disease
 ```
 
-##### Data Preparation
+### Data Preparation
 
 ```
 Data Heart Disease hanya terdiri atas 1 tabel yang berisi 14 kolom maka dari data tersebut bisa dilakukan proses append.
@@ -39,18 +38,57 @@ sedangkan 7 kolom berikutnya disimpan ke dalam bentuk CSV
 ```
 ![test](/screenshot/CSV_split.JPG)
 
-##### Modeling
+### Modeling
 
-Jelaskan proses membaca data dari dua sumber yang berbeda
+![test](/screenshot/workflow.JPG)
+#### Proses membaca dari CSV
+![test](/screenshot/CSV_Reader_setting.JPG)
+```
+menggunakan CSV Reader dengan setting sebagai berikut:
+- Pilih File CSV yang akan dibaca
+- Karena file tersebut memiliki header maka centang option "Has Column Header"
+- Klik apply
+```
+
+#### Proses membaca dari Database
+![test](/screenshot/SQL_Connect_setting.JPG)
+```
+Pertama, buat koneksi dengan database sesuai langkah-langkah berikut:
+1. Pilih MySQLConnector
+2. Lakukan configuration khusus dengan memasukkan Hostname, Database name, Username, dan Password sesuai gambar diatas
+3. Klik Apply
+4. Jalankan MySQLConnector
+```
+![test](/screenshot/DB_Selector_setting.JPG)
+```
+Kedua, Pilih table mana yang akan dibaca pada database sesuai langkah-langkah berikut:
+1. Pilih DB Table Selector
+2. Sambungkan dengan MySQLConnector yang telah disetting sebelumnya
+3. Pilih table mana yang diinginkan dan Schema nya
+4. Klik Apply
+5. Jalankan DB Table Selector
+```
+![test](/screenshot/DB_Reader_setting.JPG)
+```
+Kedua, Pilih table mana yang akan dibaca pada database sesuai langkah-langkah berikut:
+1. Pilih DB Reader
+2. Sambungkan dengan DB Table Selector yang telah disetting sebelumnya
+3. Jalankan DB Reader
+```
+![test](/screenshot/Append_setting.JPG)
+```
+Setelah data dari CSV dan Database dapat dibaca maka selanjutnya adalah proses menggabungkan dua data tersebut menjadi satu.
+```
 
 Jelaskan proses modeling (join atau append) yang dilakukan beserta setting node pada KNIME
 
-##### Evaluation
+### Evaluation
 
 Jelaskan apakah hasil join atau append berhasil
 
-##### Deployment
+### Deployment
 ```
+
 Proses deployment dilakukan dengan menyimpan data hasil append sebelumnya ke dalam tabel database dan file csv.
 Untuk penyimpanan data ke dalam tabel pada database maka sebelum itu kita harus membuat tabel tujuan dan menyetting format dan nama kolomnya
 Untuk penyimpanan data ke dalam file CSV maka pertama kali harus dibuat file CSV kosong lalu file hasil append tersebut akan disimpan pada file CSV tersebut
