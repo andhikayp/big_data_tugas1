@@ -1,3 +1,5 @@
+![test](/screenshot/CSV_Writer_setting.JPG)
+
 big_data_tugas1
 
 Business Understanding
@@ -24,7 +26,18 @@ target    : 1 : terkena heart disease; 0: tidak terkena heart disease
 
 ##### Data Preparation
 
-Jelaskan proses splitting data menjadi dua bagian
+```
+Data Heart Disease hanya terdiri atas 1 tabel yang berisi 14 kolom maka dari data tersebut bisa dilakukan proses append.
+Dari data awal yang tersebut saya split data menjadi 2 bagian masing-masing berisi 7 kolom. Proses splitting tersebut menggunakan excel. 
+```
+```
+Dari excel tersebut 7 kolom awal saya simpan ke dalam database. Untuk proses memasukkan ke dalam database saya ubah file hasil splitting tersebut ke dalam CSV lalu dengan bantuan HeidiSQL saya import file CSV tersebut ke dalam database 
+```
+![test](/screenshot/DB_split.JPG)
+```
+sedangkan 7 kolom berikutnya disimpan ke dalam bentuk CSV 
+```
+![test](/screenshot/CSV_split.JPG)
 
 ##### Modeling
 
