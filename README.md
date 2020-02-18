@@ -22,20 +22,24 @@ thal      : 3 = normal; 6 = fixed defect; 7 = reversable defect
 target    : 1 : terkena heart disease; 0: tidak terkena heart disease
 ```
 
-Data Preparation
+##### Data Preparation
 
 Jelaskan proses splitting data menjadi dua bagian
 
-Modeling
+##### Modeling
 
 Jelaskan proses membaca data dari dua sumber yang berbeda
 
 Jelaskan proses modeling (join atau append) yang dilakukan beserta setting node pada KNIME
 
-Evaluation
+##### Evaluation
 
 Jelaskan apakah hasil join atau append berhasil
 
-Deployment
-
-Simpan hasil join atau append ke dalam file dan database
+##### Deployment
+```
+Proses deployment dilakukan dengan menyimpan data hasil append sebelumnya ke dalam tabel database dan file csv.
+Untuk penyimpanan data ke dalam tabel pada database maka sebelum itu kita harus membuat tabel tujuan dan menyetting format dan nama kolomnya
+Untuk penyimpanan data ke dalam file CSV maka pertama kali harus dibuat file CSV kosong lalu file hasil append tersebut akan disimpan pada file CSV tersebut
+```
+Simpan hasil join append ke dalam file dan database
