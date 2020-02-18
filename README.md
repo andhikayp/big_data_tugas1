@@ -2,6 +2,13 @@
 ## Tugas 1
 
 ### Business Understanding
+Kemungkinan proses yang dapat dilakukan pada dataset ini antara lain :
+  - Sebagai data training heart disease.
+  - Melihat jumlah pasien yang mengalami heart disease.
+  - Melihat rentang usia pasien yang mengalami heart disease.
+  - Melihat sebaran jumlah pasien yang mengalami heart disease berdasarkan jenis kelamin.
+  - Menarik kesimpulan apa saja faktor penyebab heart disease.
+
 
 ### Data Understanding
 ```
