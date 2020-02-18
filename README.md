@@ -51,7 +51,11 @@ menggunakan CSV Reader dengan setting sebagai berikut:
 - Pilih File CSV yang akan dibaca
 - Karena file tersebut memiliki header maka centang option "Has Column Header"
 - Klik apply
+- Klik execute
+- Klik file table
+- Maka hasilnya akan tampak pada gambar berikut ini
 ```
+![test](/screenshot/csv_reader_data.JPG)
 
 #### Proses membaca dari Database
 ![test](/screenshot/SQL_Connect_setting.JPG)
@@ -73,11 +77,15 @@ Kedua, Pilih table mana yang akan dibaca pada database sesuai langkah-langkah be
 ```
 ![test](/screenshot/DB_Reader_setting.JPG)
 ```
-Kedua, Pilih table mana yang akan dibaca pada database sesuai langkah-langkah berikut:
+Ketiga, Pilih table mana yang akan dibaca pada database sesuai langkah-langkah berikut:
 1. Pilih DB Reader
 2. Sambungkan dengan DB Table Selector yang telah disetting sebelumnya
-3. Jalankan DB Reader
+3. Jalankan DB Reader dengan klik execute
+4. Lalu klik KNIME data table
+5. Maka hasilnya akan tampak pada gambar berikut ini
 ```
+![test](/screenshot/data_reader.JPG)
+
 
 ![test](/screenshot/Append.JPG)
 
