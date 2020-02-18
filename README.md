@@ -37,6 +37,7 @@ target    : 1 : terkena heart disease; 0: tidak terkena heart disease
   - Dari excel tersebut 7 kolom awal saya simpan ke dalam database. Untuk proses memasukkan ke dalam database saya ubah file hasil splitting tersebut ke dalam CSV lalu dengan bantuan HeidiSQL saya import file CSV tersebut ke dalam database 
   
 ![test](/screenshot/DB_split.JPG)
+
   - sedangkan 7 kolom berikutnya disimpan ke dalam bentuk CSV 
 ![test](/screenshot/CSV_split.JPG)
 
@@ -77,16 +78,18 @@ Kedua, Pilih table mana yang akan dibaca pada database sesuai langkah-langkah be
 2. Sambungkan dengan DB Table Selector yang telah disetting sebelumnya
 3. Jalankan DB Reader
 ```
-![test](/screenshot/Append_setting.JPG)
-```
-Setelah data dari CSV dan Database dapat dibaca maka selanjutnya adalah proses menggabungkan dua data tersebut menjadi satu.
-```
 
-Jelaskan proses modeling (join atau append) yang dilakukan beserta setting node pada KNIME
+![test](/screenshot/Append.JPG)
+
+Setelah data dari CSV dan Database dapat dibaca maka selanjutnya adalah proses menggabungkan dua data tersebut menjadi satu menggunakan Column Appender. Lakukan configurasi seperti berikut:
+![test](/screenshot/Append_setting.JPG)
+
 
 ### Evaluation
 
-Jelaskan apakah hasil join atau append berhasil
+  - Hasil Append antara tabel yang ada di DB Reader dan CSV Reader berhasil dilakukan
+  - Setelah klik "execute" lalu klik "appended table" maka akan keluar tampilan ini
+  ![test](/screenshot/append_data.JPG)
 
 ### Deployment
 
