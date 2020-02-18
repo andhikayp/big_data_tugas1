@@ -82,6 +82,7 @@ Kedua, Pilih table mana yang akan dibaca pada database sesuai langkah-langkah be
 ![test](/screenshot/Append.JPG)
 
 Setelah data dari CSV dan Database dapat dibaca maka selanjutnya adalah proses menggabungkan dua data tersebut menjadi satu menggunakan Column Appender. Lakukan configurasi seperti berikut:
+
 ![test](/screenshot/Append_setting.JPG)
 
 
@@ -98,6 +99,7 @@ Proses deployment dilakukan dengan menyimpan data hasil append sebelumnya ke dal
 #### Menyimpan ke Database
   - Untuk penyimpanan data ke dalam tabel pada database maka sebelum itu kita harus membuat tabel tujuan dan menyetting format dan nama kolomnya
   - Menggunakan DB Writer untuk men-deploy ke dalam bentuk Database
+  
   ![test](/screenshot/DB_Writer.JPG)
   - Kemudian melakukan konfigurasi seperti gambar di bawah ini
   ![test](/screenshot/DB_Writer_settingJPG.JPG)
@@ -109,6 +111,7 @@ Proses deployment dilakukan dengan menyimpan data hasil append sebelumnya ke dal
  
   - Untuk penyimpanan data ke dalam file CSV maka pertama kali harus dibuat file CSV kosong lalu file hasil append tersebut akan disimpan pada file CSV tersebut
   - Menggunakan CSV Writer untuk men-deploy ke dalam bentuk file CSV
+  
   ![test](/screenshot/CSV_Writer.JPG)
   - Kemudian melakukan konfigurasi seperti gambar di bawah ini
   ![test](/screenshot/CSV_Writer_setting.JPG)
