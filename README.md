@@ -89,10 +89,28 @@ Jelaskan proses modeling (join atau append) yang dilakukan beserta setting node 
 Jelaskan apakah hasil join atau append berhasil
 
 ### Deployment
-```
 
 Proses deployment dilakukan dengan menyimpan data hasil append sebelumnya ke dalam tabel database dan file csv.
-Untuk penyimpanan data ke dalam tabel pada database maka sebelum itu kita harus membuat tabel tujuan dan menyetting format dan nama kolomnya
-Untuk penyimpanan data ke dalam file CSV maka pertama kali harus dibuat file CSV kosong lalu file hasil append tersebut akan disimpan pada file CSV tersebut
-```
-Simpan hasil join append ke dalam file dan database
+
+#### Menyimpan ke Database
+  - Untuk penyimpanan data ke dalam tabel pada database maka sebelum itu kita harus membuat tabel tujuan dan menyetting format dan nama kolomnya
+  - Menggunakan DB Writer untuk men-deploy ke dalam bentuk Database
+  ![test](/screenshot/DB_Writer.JPG)
+  - Kemudian melakukan konfigurasi seperti gambar di bawah ini
+  ![test](/screenshot/DB_Writer_settingJPG.JPG)
+  - Klik eksekusi
+  - Berikut hasil deploy Database berhasil dilakukan
+  ![test](/screenshot/DB_hasil.JPG)
+  
+#### Menyimpan ke CSV
+ 
+  - Untuk penyimpanan data ke dalam file CSV maka pertama kali harus dibuat file CSV kosong lalu file hasil append tersebut akan disimpan pada file CSV tersebut
+  - Menggunakan CSV Writer untuk men-deploy ke dalam bentuk file CSV
+  ![test](/screenshot/CSV_Writer.JPG)
+  - Kemudian melakukan konfigurasi seperti gambar di bawah ini
+  ![test](/screenshot/CSV_Writer_setting.JPG)
+  - Klik eksekusi
+  - Berikut hasil deploy CSV berhasil dilakukan
+  ![test](/screenshot/csv_hasil.JPG)
+
+
