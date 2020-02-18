@@ -14,6 +14,31 @@
 <entry key="schema" type="xstring" value="heart_disease"/>
 <entry key="table" type="xstring" value="heart"/>
 </config>
+<config key="failOnError_Internals">
+<entry key="SettingsModelID" type="xstring" value="SMID_boolean"/>
+<entry key="EnabledStatus" type="xboolean" value="true"/>
+</config>
+<entry key="failOnError" type="xboolean" value="true"/>
+<config key="batchSize_Internals">
+<entry key="SettingsModelID" type="xstring" value="SMID_integer"/>
+<entry key="EnabledStatus" type="xboolean" value="true"/>
+</config>
+<entry key="batchSize" type="xint" value="1000"/>
+<config key="disableDbDataPort_Internals">
+<entry key="SettingsModelID" type="xstring" value="SMID_boolean"/>
+<entry key="EnabledStatus" type="xboolean" value="true"/>
+</config>
+<entry key="disableDbDataPort" type="xboolean" value="false"/>
+<config key="showStatus_Internals">
+<entry key="SettingsModelID" type="xstring" value="SMID_boolean"/>
+<entry key="EnabledStatus" type="xboolean" value="true"/>
+</config>
+<entry key="showStatus" type="xboolean" value="true"/>
+<config key="knime_to_external_mapping_Internals">
+<entry key="SettingsModelID" type="xstring" value="SMID_dataTypeMapping"/>
+<entry key="EnabledStatus" type="xboolean" value="true"/>
+</config>
+<config key="knime_to_external_mapping"/>
 <config key="setColumns">
 <entry key="filter-type" type="xstring" value="STANDARD"/>
 <config key="included_names">
@@ -53,31 +78,6 @@
 </config>
 </config>
 </config>
-<config key="batchSize_Internals">
-<entry key="SettingsModelID" type="xstring" value="SMID_integer"/>
-<entry key="EnabledStatus" type="xboolean" value="true"/>
-</config>
-<entry key="batchSize" type="xint" value="1000"/>
-<config key="failOnError_Internals">
-<entry key="SettingsModelID" type="xstring" value="SMID_boolean"/>
-<entry key="EnabledStatus" type="xboolean" value="true"/>
-</config>
-<entry key="failOnError" type="xboolean" value="true"/>
-<config key="showStatus_Internals">
-<entry key="SettingsModelID" type="xstring" value="SMID_boolean"/>
-<entry key="EnabledStatus" type="xboolean" value="true"/>
-</config>
-<entry key="showStatus" type="xboolean" value="true"/>
-<config key="disableDbDataPort_Internals">
-<entry key="SettingsModelID" type="xstring" value="SMID_boolean"/>
-<entry key="EnabledStatus" type="xboolean" value="true"/>
-</config>
-<entry key="disableDbDataPort" type="xboolean" value="false"/>
-<config key="knime_to_external_mapping_Internals">
-<entry key="SettingsModelID" type="xstring" value="SMID_dataTypeMapping"/>
-<entry key="EnabledStatus" type="xboolean" value="true"/>
-</config>
-<config key="knime_to_external_mapping"/>
 <config key="dropExisting_Internals">
 <entry key="SettingsModelID" type="xstring" value="SMID_boolean"/>
 <entry key="EnabledStatus" type="xboolean" value="true"/>
@@ -112,7 +112,7 @@
 <entry key="index" type="xint" value="2"/>
 <entry key="port_spec_class" type="xstring" value="org.knime.database.port.DBDataPortObjectSpec"/>
 <entry key="port_object_class" type="xstring" value="org.knime.database.port.DBDataPortObject"/>
-<entry key="port_object_summary" type="xstring" value="MySQL 5edf6589-9880-4d27-b7b6-5fb501a3fc15"/>
+<entry key="port_object_summary" type="xstring" value="MySQL 80b14215-a6e9-481b-a822-f7947b66a0da"/>
 <entry key="port_spec_location" type="xstring" value="spec/spec.zip"/>
 <entry key="port_object_location" type="xstring" value="object/portobject.zip"/>
 <entry key="port_dir_location" type="xstring" value="port_2"/>
@@ -120,6 +120,6 @@
 </config>
 <config key="filestores">
 <entry key="file_store_location" type="xstring" isnull="true" value=""/>
-<entry key="file_store_id" type="xstring" value="9f899160-aaa9-47d2-b773-dc7d87ec7a5a"/>
+<entry key="file_store_id" type="xstring" value="f152b5ff-c456-45e7-8201-159500ace0d3"/>
 </config>
 </config>

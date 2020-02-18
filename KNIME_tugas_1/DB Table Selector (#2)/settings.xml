@@ -19,8 +19,6 @@
 <entry key="EnabledStatus" type="xboolean" value="true"/>
 </config>
 <config key="external_to_knime_mapping"/>
-<entry key="sql_statement" type="xstring" value="SELECT * FROM #table#"/>
-<entry key="custom_query" type="xboolean" value="false"/>
 </config>
 <entry key="customDescription" type="xstring" isnull="true" value=""/>
 <entry key="state" type="xstring" value="EXECUTED"/>
@@ -43,7 +41,7 @@
 <entry key="index" type="xint" value="1"/>
 <entry key="port_spec_class" type="xstring" value="org.knime.database.port.DBDataPortObjectSpec"/>
 <entry key="port_object_class" type="xstring" value="org.knime.database.port.DBDataPortObject"/>
-<entry key="port_object_summary" type="xstring" value="MySQL 5edf6589-9880-4d27-b7b6-5fb501a3fc15"/>
+<entry key="port_object_summary" type="xstring" value="MySQL 80b14215-a6e9-481b-a822-f7947b66a0da"/>
 <entry key="port_spec_location" type="xstring" value="spec/spec.zip"/>
 <entry key="port_object_location" type="xstring" value="object/portobject.zip"/>
 <entry key="port_dir_location" type="xstring" value="port_1"/>
@@ -51,6 +49,6 @@
 </config>
 <config key="filestores">
 <entry key="file_store_location" type="xstring" isnull="true" value=""/>
-<entry key="file_store_id" type="xstring" value="650f6dd9-04a1-405e-a18f-6e4e29e9e68f"/>
+<entry key="file_store_id" type="xstring" value="7208db47-2e6e-433b-a2f1-06cb82ce8f6b"/>
 </config>
 </config>

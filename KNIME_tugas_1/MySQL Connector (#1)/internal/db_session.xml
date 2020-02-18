@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <config xmlns="http://www.knime.org/2008/09/XMLConfig" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.knime.org/2008/09/XMLConfig http://www.knime.org/XMLConfig_2008_09.xsd" key="db_session">
 <config key="Session Info">
-<entry key="sessionID" type="xstring" value="5edf6589-9880-4d27-b7b6-5fb501a3fc15"/>
+<entry key="sessionID" type="xstring" value="80b14215-a6e9-481b-a822-f7947b66a0da"/>
 <entry key="dbTypeId" type="xstring" value="mysql"/>
 <entry key="dialectId" type="xstring" value="mysql"/>
 <entry key="dbURL" type="xstring" value="jdbc:mysql://178.128.80.206:3306/heart_disease"/>
