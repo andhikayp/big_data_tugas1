@@ -11,6 +11,7 @@ Kemungkinan proses yang dapat dilakukan pada dataset ini antara lain :
 
 
 ### Data Understanding
+Dataset ini berisi 14 kolom. Secara khusus, tujuan dari dataset ini mengacu pada ada tidaknya penyakit jantung pada pasien.
 ```
 jumlah baris data: 303 baris 
 makna kolom-kolom yang ada di dalam data:
@@ -32,17 +33,11 @@ target    : 1 : terkena heart disease; 0: tidak terkena heart disease
 
 ### Data Preparation
 
-```
-Data Heart Disease hanya terdiri atas 1 tabel yang berisi 14 kolom maka dari data tersebut bisa dilakukan proses append.
-Dari data awal yang tersebut saya split data menjadi 2 bagian masing-masing berisi 7 kolom. Proses splitting tersebut menggunakan excel. 
-```
-```
-Dari excel tersebut 7 kolom awal saya simpan ke dalam database. Untuk proses memasukkan ke dalam database saya ubah file hasil splitting tersebut ke dalam CSV lalu dengan bantuan HeidiSQL saya import file CSV tersebut ke dalam database 
-```
+  - Data Heart Disease hanya terdiri atas 1 tabel yang berisi 14 kolom maka dari data tersebut bisa dilakukan proses append. Dari data awal tersebut saya split data menjadi 2 bagian masing-masing berisi 7 kolom. Proses splitting menggunakan excel. 
+  - Dari excel tersebut 7 kolom awal saya simpan ke dalam database. Untuk proses memasukkan ke dalam database saya ubah file hasil splitting tersebut ke dalam CSV lalu dengan bantuan HeidiSQL saya import file CSV tersebut ke dalam database 
+  
 ![test](/screenshot/DB_split.JPG)
-```
-sedangkan 7 kolom berikutnya disimpan ke dalam bentuk CSV 
-```
+  - sedangkan 7 kolom berikutnya disimpan ke dalam bentuk CSV 
 ![test](/screenshot/CSV_split.JPG)
 
 ### Modeling
