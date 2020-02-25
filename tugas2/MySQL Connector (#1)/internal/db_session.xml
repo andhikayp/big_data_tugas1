@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config xmlns="http://www.knime.org/2008/09/XMLConfig" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.knime.org/2008/09/XMLConfig http://www.knime.org/XMLConfig_2008_09.xsd" key="db_session">
+<config key="Session Info">
+<entry key="sessionID" type="xstring" value="42c5bc0d-fa5a-4eab-9aaf-28041d92547e"/>
+<entry key="dbTypeId" type="xstring" value="mysql"/>
+<entry key="dialectId" type="xstring" value="mysql"/>
+<entry key="dbURL" type="xstring" value="jdbc:mysql://178.128.80.206:3306/heart_disease"/>
+<entry key="authenticationType" type="xstring" value="USER_PWD"/>
+<entry key="dbUser" type="xstring" value="buaya"/>
+<entry key="dbPassword" type="xpassword" value="0116DF33B92CDC8DE78264E1446960FD7E"/>
+</config>
+<config key="Driver Definition">
+<entry key="driverId" type="xstring" value="MySQL 8"/>
+<entry key="driverName" type="xstring" value="MySQL 8"/>
+<entry key="driverVersion" type="xstring" value="8.0.0"/>
+<entry key="driverClass" type="xstring" value="com.mysql.cj.jdbc.Driver"/>
+<entry key="driverDescription" type="xstring" value=""/>
+<entry key="driverOrigin" type="xstring" value="EXTENSION"/>
+</config>
+<config key="Attributes">
+<config key="org.knime.database.util.DerivableProperties">
+<config key="knime.db.connection.jdbc.properties">
+<config key="values">
+<entry key="serverTimezone" type="xstring" value="UTC"/>
+<entry key="allowLoadLocalInfile" type="xstring" value="true"/>
+</config>
+<config key="types">
+<entry key="serverTimezone" type="xstring" value="LITERAL"/>
+<entry key="allowLoadLocalInfile" type="xstring" value="LITERAL"/>
+</config>
+</config>
+</config>
+</config>
+</config>
